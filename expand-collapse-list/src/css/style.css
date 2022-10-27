@@ -1,0 +1,68 @@
+/* Add your css styles here */
+
+.multi-select {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+.accordion-title {
+    padding: 5px 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+.accordion {
+    position: relative;
+}
+
+.accordion .title-section {
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.accordion .title-section .title {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.accordion .title-section .expand-icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url('../../assets/icons/down-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.accordion .title-section .collapse-icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url('../../assets/icons/up-icon.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.accordion .description {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.position-relative {
+    position: relative;
+}

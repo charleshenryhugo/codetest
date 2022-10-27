@@ -1,0 +1,89 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search City</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+</head>
+
+<body>
+<!--HTML content goes here-->
+<h8k-navbar header="Accordion"></h8k-navbar>
+
+<div class="w-50 mx-auto mt-40 position-relative">
+    <div class="carousel-container">
+        <div class="accordion-title">Places To Visit In Bangalore</div>
+        <div class="accordion" data-testid="1">
+            <div class="title-section">
+                <div class="title">Lalbagh Botanical Garden</div>
+                <div class="expand-icon"></div>
+                <div class="collapse-icon"></div>
+            </div>
+            <div class="description">
+                Botanical garden with an aquarium & glasshouse designed to mimic London's former Crystal Palace.
+            </div>
+        </div>
+
+        <div class="accordion" data-testid="2">
+            <div class="title-section">
+                <div class="title">Cubbon Park</div>
+                <div class="expand-icon"></div>
+                <div class="collapse-icon"></div>
+            </div>
+            <div class="description">
+                Established in 1870, this vibrant city park has walking paths, landscaped gardens & play areas.
+            </div>
+        </div>
+
+        <div class="accordion" data-testid="3">
+            <div class="title-section">
+                <div class="title">Bannerghatta Biological Park</div>
+                <div class="expand-icon"></div>
+                <div class="collapse-icon"></div>
+            </div>
+            <div class="description">
+                Vast national reserve featuring a zoo, safari park, butterfly conservatory & animal rescue center.
+            </div>
+        </div>
+
+        <div class="accordion" data-testid="4">
+            <div class="title-section">
+                <div class="title">Dodda Alada Mara</div>
+                <div class="expand-icon"></div>
+                <div class="collapse-icon"></div>
+            </div>
+            <div class="description">
+                Planted in the 17th century, this 400-year-old banyan tree covers 3 acres & is a popular photo spot.
+            </div>
+        </div>
+
+        <div class="accordion" data-testid="5">
+            <div class="title-section">
+                <div class="title">ISKCON Temple Bangalore</div>
+                <div class="expand-icon"></div>
+                <div class="collapse-icon"></div>
+            </div>
+            <div class="description">
+                Expansive, modern Hare Krishna temple campus, including shrines, food stalls & souvenir shops.
+            </div>
+        </div>
+    </div>
+
+    <div class="multi-select">
+        <label>
+            <input type="checkbox" class="checkbox" id="multiselect" data-testid="multiselect"> Multiple
+        </label>
+    </div>
+</div>
+
+</body>
+
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+
+</html>

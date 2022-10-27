@@ -1,0 +1,5 @@
+/node_modules
+/src/bundle.js
+/src/*.png
+/src/*.jpg
+junit.xml
