@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/8785643/what-exactly-is-device-pixel-ratio
